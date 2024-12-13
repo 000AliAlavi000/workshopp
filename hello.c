@@ -1,6 +1,8 @@
 # include <stdio.h>
 int main()
 {
-	printf("Hello, World!\n");
+	int num;
+	scanf('%d, &num);
+	printf("Yiur number is: %d\n", num);
 	return 0;
 }
